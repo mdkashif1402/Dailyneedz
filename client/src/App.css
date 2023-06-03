@@ -1,0 +1,100 @@
+.App {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand {
+  height: 150px;
+  width: 150px;
+}
+
+.search-bar {
+  position: absolute;
+  right: 310px;
+}
+
+.navbar {
+  height: 100px;
+  background-color: lightcyan;
+}
+
+.dropdown {
+  position: absolute;
+  right: 60px;
+}
+
+.tagline {
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+.sub-tagline {
+  padding-left: 200px;
+}
+
+.vendor {
+  margin-top: -50px;
+}
+
+.heading {
+  padding: 70px;
+}
+
+.row {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+#user-btn {
+  padding-right: 10px;
+}
+
+.first-sec {
+  padding: 70px;
+}
+
+.poster-d {
+  margin-top: 50px;
+  animation: diagonal-move-anim 3s linear;
+}
+
+@keyframes diagonal-move-anim {
+  0% {
+    transform: translate(130px, -40px);
+  }
+
+  100% {
+    transform: translate(-0, -0);
+  }
+}
+
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.toggle-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  text-align: center;
+}
+
+#btn {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 110px;
+  height: 50px;
+  background: #e67e22;
+  border-radius: 30px;
+  transition: .5s;
+}
